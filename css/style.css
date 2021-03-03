@@ -1,0 +1,9 @@
+/* COMMON */
+
+body {
+    font-family: 'Inter', sans-serif;
+    min-width: 320px;
+
+    /* TEST */
+    background-color: bisque;
+}
