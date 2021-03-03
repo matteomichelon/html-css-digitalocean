@@ -5,6 +5,10 @@ body {
     min-width: 320px;
 }
 
+.ms_padding {
+    padding: 40px 0;
+}
+
 /* ul li */
 
 ul {
@@ -58,7 +62,71 @@ nav .btn_sign_up {
 
 /* Jumbo */
 
-main .ms_jumbo{
+main .ms_jumbo {
     background-image: url(../img/ms-jumbo.jpg);
     color: #fefefe;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.ms_jumbo p {
+    font-size: 25px;
+}
+
+.ms_title p {
+    color: #bbcdff;
+}
+
+.jumbo_form {
+    color: #031c4e;
+    background-color: #fefefe;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.jumbo_form h2, .jumbo_form a {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.jumbo_form a {
+    color: #006aff;
+}
+
+.jumbo_form form {
+    margin: 15px 0;
+}
+
+.jumbo_form button {
+    font-size: 12px;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.jumbo_form button .btn-primary {
+    color: #579aff;
+}
+
+.jumbo_form button .btn-default {
+    color: #626262;
+}
+
+.jumbo_form button img {
+    width: 14px;
+    height: auto;
+    position: absolute;
+    left: 15px;
+}
+
+.jumbo_form .jumbo_terms p {
+    font-size: 10px;
+    margin-top: 10px;
+}
+
+.jumbo_form .jumbo_terms a {
+    font-size: 10px;
+    text-decoration: underline;
 }
