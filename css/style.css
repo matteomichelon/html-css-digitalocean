@@ -28,8 +28,7 @@ ul li a {
 
 /* HEADER */
 
-
-header{
+header {
     padding: 20px 0;
 }
 
@@ -37,21 +36,29 @@ header a {
     color: #031c4e;
 }
 
-nav img {
+header img {
     height: 25px;
     width: auto;
 }
 
-nav .btn_sign_up{
+nav .btn_sign_up {
     border: 2px solid #006aff;
     color: #006aff;
 }
 
-.nav_center{
+.nav_center {
     line-height: 30px;
 }
 
-.ms_burger{
+.ms_burger {
     font-size: 18px;
 }
 
+/* MAIN */
+
+/* Jumbo */
+
+main .ms_jumbo{
+    background-image: url(../img/ms-jumbo.jpg);
+    color: #fefefe;
+}
