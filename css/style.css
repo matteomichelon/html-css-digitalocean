@@ -13,6 +13,7 @@ body {
 
 .section_white h2, .section_white h3 {
     color: #031c4e;
+    text-align: center;
 }
 
 .section_white p {
@@ -27,10 +28,12 @@ body {
 
 .section_grey h2 {
     color: #031c4e;
+    text-align: center;
 }
 
 .section_grey h3 {
     color: #a1abbc;
+    text-align: center;
 }
 
 .section_grey p {
@@ -211,7 +214,7 @@ h1 {
     color: #969eb1;
 }
 
-.deployment_content{
+.deployment_content {
     margin-top: 30px;
 }
 
@@ -254,6 +257,18 @@ h1 {
     display: inline-block;
 }
 
-#first_circle{
+#first_circle {
     background-color: #006aff;
+}
+
+/* Features */
+
+.features_grid {
+    padding: 30px 0;
+}
+
+@media (max-width: 767px) {
+    .feature_center, .feature_right {
+        padding-top: 30px;
+    }
 }
