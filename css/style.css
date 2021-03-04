@@ -44,6 +44,14 @@ body {
     color: #006aff;
 }
 
+/* Common Section Blue */
+
+.section_blue {
+    padding: 40px 0;
+    background-color: #002aa5;
+    color: #fefefe;
+}
+
 /* Common_ms_title */
 
 .ms_title p {
@@ -277,12 +285,6 @@ h1 {
 
 /* Region */
 
-.ms_region {
-    padding: 40px 0;
-    background-color: #002aa5;
-    color: #fefefe;
-}
-
 .region_inner {
     border-bottom: 1px solid white;
 }
@@ -318,7 +320,7 @@ h1 {
 
 /* Development */
 
-.ms_development .ms_title h2{
+.ms_development .ms_title h2 {
     color: #031c4e;
     font-size: 50px;
 }
@@ -346,7 +348,7 @@ h1 {
     color: #5c6a88;
 }
 
-.development_center h5,.development_center h6,.development_center a  {
+.development_center h5, .development_center h6, .development_center a {
     font-size: 20px;
 }
 
@@ -356,4 +358,11 @@ h1 {
 
 .development_center h6 {
     color: #32446c;
+}
+
+/* FOOTER */
+
+footer{
+    background-color: #031c4e;
+    padding: 40px 0;
 }
