@@ -272,3 +272,44 @@ h1 {
         padding-top: 30px;
     }
 }
+
+/* Region */
+
+.ms_region {
+    padding: 40px 0;
+    background-color: #002aa5;
+    color: #fefefe;
+}
+
+.region_inner {
+    border-bottom: 1px solid white;
+}
+
+.region_inner h5 {
+    color: #b8c6e9;
+}
+
+.region_inner a {
+    color: #00d7d2;
+    margin: 0;
+    padding: 0;
+}
+
+.inner_title, .inner_middle, .inner_link {
+    display: inline-block;
+    width: calc ( 100% / 3);
+}
+
+.inner_title h4, .inner_middle h5 {
+    margin-right: 5px;
+}
+
+@media (max-width: 767px) {
+    .grid_right {
+        padding-top: 30px;
+    }
+}
+
+.grid_left .region_inner:last-child, .grid_right .region_inner:last-child{
+    border-bottom: none;
+}
