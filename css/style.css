@@ -9,7 +9,49 @@ body {
     padding: 40px 0;
 }
 
-/* ul li */
+/* Common_Section_white */
+
+.section_white h2, .section_white h3 {
+    color: #031c4e;
+}
+
+.section_white p {
+    color: #5c6a88;
+}
+
+/* Common_Section_grey */
+
+.section_grey {
+    background-color: #f3f5f9;
+}
+
+.section_grey h2 {
+    color: #031c4e;
+}
+
+.section_grey h3 {
+    color: #a1abbc;
+}
+
+.section_grey p {
+    color: #586686
+}
+
+.section_grey a {
+    color: #006aff;
+}
+
+/* Common_ms_title */
+
+.ms_title p {
+    font-size: 20px;
+}
+
+.ms_title h2 {
+    font-size: 35px;
+}
+
+/* Common_ul_li */
 
 ul {
     margin: 0;
@@ -76,10 +118,6 @@ h1 {
     font-size: 25px;
 }
 
-.ms_title p {
-    color: #bbcdff;
-}
-
 .jumbo_form {
     color: #031c4e;
     background-color: #fefefe;
@@ -133,10 +171,6 @@ h1 {
 
 /* Customer */
 
-main .ms_customer {
-    background-color: #f3f5f9;
-}
-
 .ms_customer .customer_title {
     text-transform: uppercase;
 }
@@ -175,4 +209,51 @@ main .ms_customer {
 
 .deployment_list ul li a {
     color: #969eb1;
+}
+
+.deployment_content{
+    margin-top: 30px;
+}
+
+.one-click_deployment, .global_deployment {
+    padding-top: 30px;
+}
+
+@media (max-width: 767px) {
+    .cluster_deployment, .optimize_deployment {
+        padding-top: 30px;
+    }
+}
+
+/* Designed */
+
+.designed_slide img {
+    width: 80%;
+    margin: 40px 20px 20px 20px;
+}
+
+.designed_slide span i {
+    font-size: 40px;
+}
+
+.designed_slide span:first-child {
+    color: #6f7b97;
+}
+
+@media (max-width: 767px) {
+    .designed_slide span i {
+        display: none;
+    }
+}
+
+.designed_circle {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    border: 1px solid #006aff;
+    display: inline-block;
+}
+
+#first_circle{
+    background-color: #006aff;
 }
