@@ -210,33 +210,34 @@ h1 {
 
 /* Customer */
 
-.ms_customer .customer_title {
+.customer_title {
     text-transform: uppercase;
 }
 
-.ms_customer .customer_logo {
+.customer_logo {
     padding: 20px 0;
 }
 
-.ms_customer .customer_logo .logo_img{
-    display: inline-block;
-    width: calc( ( 100% / 6 ) - 4px);
-    /* height: auto; */
+.customer_logo .logo_img img {
+    width: 100%;
+    height: auto;
 }
 
-/* @media (min-width: 768px) and (max-width: 992px) {
-    .ms_customer .customer_logo li {
-        width: calc( ( 100% / 6 ) - 18px);
-        height: auto;
-    }
-} */
+.customer_logo .logo_img {
+    display: inline-block;
+    width: calc( ( 100% / 6) - 4px);
+    padding: 0 5px;
+}
 
-/* @media (max-width: 767px) {
-    .ms_customer .customer_logo img {
-        max-width: 700px;
+@media (max-width: 767px) {
+    .customer_logo .logo_img {
+        width: calc( ( 100% / 2) - 4px);
         height: auto;
     }
-} */
+    .customer_logo .logo_img img {
+        width: 70%;
+    }
+}
 
 /* Deployment */
 
@@ -375,4 +376,3 @@ footer {
     margin-left: 0;
     margin-bottom: 10px;
 }
-
