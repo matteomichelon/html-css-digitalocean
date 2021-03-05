@@ -287,43 +287,42 @@ h1 {
 
 /* Region */
 
+.ms_region h2 {
+    margin-bottom: 30px;
+}
+
 .ms_region .grid_left ul, .ms_region .grid_right ul {
     border-bottom: 1px solid white;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
 }
 
 .ms_region .grid_left ul:last-child, .ms_region .grid_right ul:last-child {
     border-bottom: none;
-}
-/* 
-.region_inner h5 {
-    color: #b8c6e9;
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
 
-.region_inner a {
+.ms_region .li_color{
+    color: #b3c2e6;
+}
+
+.ms_region a, .ms_region i{
     color: #00d7d2;
-    margin: 0;
-    padding: 0;
-}
-
-.inner_title, .inner_middle, .inner_link {
-    display: inline-block;
-}
-
-.inner_title h4, .inner_middle h5 {
-    margin-right: 5px;
 }
 
 @media (max-width: 767px) {
-    .grid_right {
-        padding-top: 30px;
+    .ms_region .grid_left ul:last-child {
+        margin-bottom: 50px;
     }
 }
- */
+
 /* Development */
 
 .ms_development .ms_title h2 {
     color: #031c4e;
-    font-size: 50px;
+    font-size: 40px;
+    font-weight: 600;
 }
 
 .ms_slide span {
@@ -339,7 +338,7 @@ h1 {
 }
 
 .development_center img {
-    width: 75%;
+    width: 50%;
     height: auto;
 }
 
@@ -355,10 +354,29 @@ h1 {
 
 .development_center h5 {
     color: #031c4e;
+    font-weight: bold;
 }
 
 .development_center h6 {
     color: #32446c;
+}
+
+.development_center a,.development_center i{
+    margin-top:40px;
+    color: #006aff;
+}
+
+/* Get Started */
+
+.get_started h2{
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.get_started button{
+    color: #006aff;
+    font-weight: bold;
+    padding: 12px;
 }
 
 /* FOOTER */
