@@ -287,10 +287,14 @@ h1 {
 
 /* Region */
 
-.region_inner {
+.ms_region .grid_left ul, .ms_region .grid_right ul {
     border-bottom: 1px solid white;
 }
 
+.ms_region .grid_left ul:last-child, .ms_region .grid_right ul:last-child {
+    border-bottom: none;
+}
+/* 
 .region_inner h5 {
     color: #b8c6e9;
 }
@@ -314,11 +318,7 @@ h1 {
         padding-top: 30px;
     }
 }
-
-.grid_left .region_inner:last-child, .grid_right .region_inner:last-child {
-    border-bottom: none;
-}
-
+ */
 /* Development */
 
 .ms_development .ms_title h2 {
