@@ -115,6 +115,15 @@ ul li a {
 
 header {
     padding: 20px 0;
+    background-color: white;
+    z-index: 1;
+}
+
+.fixed_top {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
 }
 
 header a {
@@ -146,6 +155,7 @@ nav .btn_sign_up {
 main .ms_jumbo {
     background-image: url(../img/ms-jumbo.jpg);
     color: #fefefe;
+    margin-top: 70px;
 }
 
 h1 {
@@ -384,11 +394,10 @@ h1 {
 footer {
     background-color: #031c4e;
     padding: 40px 0;
-    /* test */
     color: white;
 }
 
-.footer_cols li {
+.f_cols li {
     display: block;
     margin-left: 0;
     margin-bottom: 10px;
@@ -401,11 +410,11 @@ footer {
     margin-bottom: 10px;
 }
 
-.ms_footer_logo{
+.ms_footer_logo {
     color: #8b94a9;
 }
 
-.ms_footer_logo span{
+.ms_footer_logo span {
     color: #5a6887;
 }
 
@@ -415,4 +424,111 @@ footer {
 
 .ms_footer_logo ul a {
     color: #7a859d;
+}
+
+/* Cols */
+
+.f_cols h4 {
+    font-weight: 700;
+}
+
+.f_cols li a {
+    color: #a0a8b9;
+}
+
+@media (min-width:768px) and (max-width:992px) {
+    .f_left, .f_center_left, .ms_footer_logo {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 767px) {
+    .f_left, .f_center_left, .f_center_right, .ms_footer_logo {
+        margin-bottom: 20px;
+    }
+}
+
+/* Fixed */
+
+.fixed_shark {
+    position: fixed;
+    bottom: 90px;
+    right: 50px;
+    width: 100%;
+}
+
+.fixed_shark_right {
+    position: fixed;
+    bottom: 90px;
+    right: 174px;
+}
+
+.fixed_circle {
+    position: fixed;
+    bottom: 155px;
+    right: 30px;
+}
+
+.shark img {
+    width: 100px;
+    height: auto;
+    background-color: #006aff;
+    padding: 10px 0;
+}
+
+.shark_right {
+    border-radius: 6px;
+    background-color: white;
+    height: 100px;
+    width: 500px;
+    padding: 20px;
+}
+
+.shark_right span {
+    color: #031c4e;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.ms_circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: white;
+    display: inline-block;
+    text-align: center;
+    line-height: 50px;
+}
+
+.ms_circle span {
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+@media (max-width: 767px) {
+
+    .fixed_shark_right {
+        right: 120px;
+    }
+    .fixed_circle {
+        bottom: 140px;
+        right: 30px;
+    }
+    .shark img {
+        width: 60px;
+    }
+    .shark_right {
+        height: 80px;
+        width: 200px;
+        padding: 10px;
+    }
+    .shark_right span {
+        font-size: 14px;
+    }
+    .ms_circle {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+    }
 }
