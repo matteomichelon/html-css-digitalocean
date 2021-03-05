@@ -303,11 +303,11 @@ h1 {
     padding-bottom: 0;
 }
 
-.ms_region .li_color{
+.ms_region .li_color {
     color: #b3c2e6;
 }
 
-.ms_region a, .ms_region i{
+.ms_region a, .ms_region i {
     color: #00d7d2;
 }
 
@@ -361,19 +361,19 @@ h1 {
     color: #32446c;
 }
 
-.development_center a,.development_center i{
-    margin-top:40px;
+.development_center a, .development_center i {
+    margin-top: 40px;
     color: #006aff;
 }
 
 /* Get Started */
 
-.get_started h2{
+.get_started h2 {
     margin-bottom: 30px;
     font-weight: bold;
 }
 
-.get_started button{
+.get_started button {
     color: #006aff;
     font-weight: bold;
     padding: 12px;
@@ -392,4 +392,27 @@ footer {
     display: block;
     margin-left: 0;
     margin-bottom: 10px;
+}
+
+/* Logo and Social */
+
+.ms_footer_logo img {
+    opacity: 0.7;
+    margin-bottom: 10px;
+}
+
+.ms_footer_logo{
+    color: #8b94a9;
+}
+
+.ms_footer_logo span{
+    color: #5a6887;
+}
+
+.ms_footer_logo ul {
+    margin-top: 10px;
+}
+
+.ms_footer_logo ul a {
+    color: #7a859d;
 }
