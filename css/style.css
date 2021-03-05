@@ -303,7 +303,6 @@ h1 {
 
 .inner_title, .inner_middle, .inner_link {
     display: inline-block;
-    width: calc ( 100% / 3);
 }
 
 .inner_title h4, .inner_middle h5 {
