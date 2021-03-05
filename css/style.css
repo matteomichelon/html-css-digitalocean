@@ -362,13 +362,16 @@ h1 {
 
 /* FOOTER */
 
-footer{
+footer {
     background-color: #031c4e;
     padding: 40px 0;
-<<<<<<< HEAD
-    
-=======
->>>>>>> fc16804d0af7eecc7d73c653c5845d28f1135ba9
     /* test */
     color: white;
 }
+
+.footer_cols li {
+    display: block;
+    margin-left: 0;
+    margin-bottom: 10px;
+}
+
