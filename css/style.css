@@ -365,4 +365,6 @@ h1 {
 footer{
     background-color: #031c4e;
     padding: 40px 0;
+    /* test */
+    color: white;
 }
